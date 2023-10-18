@@ -1,22 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
+import './navigation.css';
+const handlePlace=()=>{
+  console.log('buttton pressed');
+}
 const Navbar = () => {
   return (
-    <div>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/place">Places</Link>
-        </li>
-        <li>
-          <Link to="/details">Details</Link>
-        </li>
-      </ul>
+
+ 
+    <div className='navigation'>
+      <button onClick={handlePlace}>place</button>
+      <button onClick={handlePlace}>details</button>
+
     </div>
   );
 };
-
+ 
 export default Navbar;

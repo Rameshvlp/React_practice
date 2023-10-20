@@ -3,11 +3,12 @@ import Navbar from '../components/navbar'
 
 function details() {
   return (
-
-    <div>details
-          <Navbar />
-
-    </div>
+    <div>
+    <Navbar />
+<h3>Details</h3><div>
+<h2>Welcome</h2>
+</div>
+</div>
   )
 }
 

@@ -6,7 +6,7 @@ function details() {
     <div>
     <Navbar />
 <h3>Details</h3><div>
-<h2>Welcome</h2>
+<h2>hai hello</h2>
 </div>
 </div>
   )

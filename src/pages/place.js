@@ -17,7 +17,8 @@ const place = () =>{
      <form>hobbies: 
       <input type='checkbox'/>
       <input type='checkbox'/>
-     
+      <input type='checkbox'/>
+
      </form>
 
     </div>

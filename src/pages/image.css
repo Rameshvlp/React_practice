@@ -1,0 +1,11 @@
+.image {
+    background-image: url(./bill.jpg);
+    width: 100%;
+
+  }
+  body{
+    background-color: rgb(220, 221, 221);
+  }
+  .head{
+        text-align: center;
+  }

@@ -5,9 +5,8 @@ function details() {
   return (
     <div>
     <Navbar />
-<h3>Details</h3><div>
-<h2>hai hello</h2>
-</div>
+    <h1>Details page</h1>
+
 </div>
   )
 }

@@ -1,3 +1,24 @@
 .navigation{
-    background-color:gray ;
+    background-color:rgb(81, 85, 81) ;
 }
+/* Style the navigation container */
+.navigation {
+    
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  button {
+    justify-content: space-around;
+    padding: 8px 16px;
+    background-color: #555;
+    color: white;
+    border-radius:5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #050404;
+
+  }
+  

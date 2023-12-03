@@ -5,10 +5,22 @@ const place = () =>{
   return (
     
     <div>
-            <Navbar />
-    <h3>places</h3><div>
-        <h2>Valparai</h2>
-      </div>
+      <Navbar />  
+      <h1>place page</h1>
+     <form>Enter your name: 
+      <input type='text'/>
+     </form><form>Enter your number: 
+      <input type='number'/>
+     </form>
+     <form> 
+     </form>
+     <form>hobbies: 
+      <input type='checkbox'/>
+      <input type='checkbox'/>
+      <input type='checkbox'/>
+
+     </form>
+
     </div>
   );
 }

@@ -1,16 +1,19 @@
 import React from 'react';
 import './navigation.css';
-const handlePlace=()=>{
-  console.log('buttton pressed');
-}
+import { Link } from 'react-router-dom';
+
+// const handlePlace=()=>{
+//   alert('explore the places');
+// }
 const Navbar = () => {
   return (
-
- 
-    <div className='navigation'>
-      <button onClick={handlePlace}>place</button>
-      <button onClick={handlePlace}>details</button>
-
+  <div className='navigation'>
+ <Link to="/place">
+        <button >Place</button>
+      </Link>
+      <Link to="/details">
+        <button>Details</button>
+      </Link>
     </div>
   );
 };
